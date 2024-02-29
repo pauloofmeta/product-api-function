@@ -2,19 +2,18 @@
   "name": "product-api-function",
   "version": "1.0.0",
   "description": "A Product API Serverless",
-  "main": "index.js",
   "repository": "git@github.com:pauloofmeta/product-api-function.git",
   "author": "Paulo Henrique Sousa da Silva <pauloofmeta@gmail.com>",
   "license": "MIT",
   "engines": {
     "node": ">=18.0.0"
   },
-  "man": "build/src/index.js",
+  "main": "build/src/index.js",
   "types": "build/src/index.d.ts",
   "scripts": {
     "build": "tsc -p .",
     "prestart": "yarn run build",
-    "start": "functions-framework --target=app --signature-type=http",
+    "start": "functions-framework --target=product-api --signature-type=http",
     "dev": "nodemon --watch 'src/' --exec 'ts-node src/api.ts' -e ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
