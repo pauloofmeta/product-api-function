@@ -1,0 +1,9 @@
+{
+  "name": "product-api-function",
+  "version": "1.0.0",
+  "description": "A Product API Serverless",
+  "main": "index.js",
+  "repository": "git@github.com:pauloofmeta/product-api-function.git",
+  "author": "Paulo Henrique Sousa da Silva <pauloofmeta@gmail.com>",
+  "license": "MIT"
+}
