@@ -1,16 +1,16 @@
 variable "project_id" {
   type    = string
-  default = "product-api-415813"
+  default = "<product_id>"
 }
 
 variable "region" {
   type    = string
-  default = "us-east1"
+  default = "<location>"
 }
 
 variable "service_account_email" {
   type    = string
-  default = "cloud-functions@product-api-415813.iam.gserviceaccount.com"
+  default = "<service_account>"
   
 }
 
